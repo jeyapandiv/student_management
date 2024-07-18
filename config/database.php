@@ -44,7 +44,7 @@ class Database
         if (is_null($type)) {
             switch (true) {
                 case is_int($value):
-                    $type = PDO::PARAM_INT;    //Integer type
+                    $type = PDO::PARAM_INT;    //integer type
                     break;
                 case is_bool($value):
                     $type = PDO::PARAM_BOOL;   //boolean type
